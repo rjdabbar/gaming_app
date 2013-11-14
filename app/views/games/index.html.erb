@@ -1,3 +1,6 @@
-<h1>Hello!</h1>
+<h1>BEWD Inclass Gaming App</h1>
+<p> Time Wasters:</p>
 
-<%= "welcome to the gaming app".upcase %>
+<% @games.each do |game| %>
+  <p><%= game %></p>
+<% end %>
